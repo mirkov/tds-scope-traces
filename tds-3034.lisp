@@ -1,7 +1,8 @@
 (in-package :tds-scope-traces)
 
 (defclass tds-3034-traces (scope-traces)
-  ((row-count :initform 10000))
+  ((row-count :initform 10000)
+   (scope-model :initform "TDS-3034"))
   (:documentation "Traces acquired by the 3034 Tektronix scope"))
 
 

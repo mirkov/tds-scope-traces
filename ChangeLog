@@ -1,0 +1,18 @@
+2013-01-22  Mirko Vukovic  <mirko.vukovic@us.tel.com>
+
+	* tds-3034.lisp (tds-3034-traces): Added model number
+
+	* tds-360.lisp (tds-360-traces): Added model number
+
+	* tds-base-class.lisp (print-object)
+	(describe-object): New methods
+
+	* tds-scope-traces.asd (:tds-scope-traces): Fixed
+	asdf to new tds-base-class filename
+
+	* tds-base-class.lisp: Renamed tds-base to tds-base-class
+	(:tds): Renamed scope-traces class to tds-scope-traces
+
+	* extra.lisp (import-table-from-csv-file): reads
+	data from a csv file into a table.
+

@@ -17,7 +17,7 @@
 	    :pathname #P"./"
 	    :components
 	    ((:file "tds-scope-traces-package-def")
-	     (:file "tds-base")))
+	     (:file "tds-base-class")))
    (:module "scope-definitions"
 	    :serial t
 	    :pathname #P"./"

@@ -1,7 +1,8 @@
 (in-package :tds-scope-traces)
 
 (defclass tds-360-traces (scope-traces)
-  ((row-count :initform 1000))
+  ((row-count :initform 1000)
+   (scope-model :initfrom "TDS-360"))
   (:documentation "Traces acquired by the 360 Tektronix scope"))
 
 
